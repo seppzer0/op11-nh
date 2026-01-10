@@ -322,7 +322,7 @@ runs:
         echo "Building out of tree external kernel modules..."
         cd "$MSM"
         #QCA_WLAN_DIR="$GITHUB_WORKSPACE/$CONFIG/vendor/qcom/opensource/wlan/qcacld-3.0/"
-        WLAN_PLATFORM_DIR="$VENDOR_MODULES/vendor/qcom/opensource/wlan/platform"
+        WLAN_PLATFORM_DIR="$CONFIG/vendor/qcom/opensource/wlan/platform"
 
         echo "Building CNSS2 (Platform Driver)..."
         make -C ../../vendor/qcom/opensource/wlan/platform \
